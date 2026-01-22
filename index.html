@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Godson Travels | Kodaikanal Trip Packages</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:#f4f7fb;color:#333}
+
+    /* HEADER & SLIDER */
+    header{position:relative;height:70vh;overflow:hidden}
+    .slides img{width:100%;height:70vh;object-fit:cover;display:none}
+    .slides img.active{display:block}
+    .overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-align:center}
+    .overlay h1{font-size:3rem}
+
+    .container{width:90%;max-width:1200px;margin:40px auto}
+
+    /* PACKAGES */
+    .packages{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+    .card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.1)}
+    .card img{width:100%;height:180px;object-fit:cover}
+    .card .content{padding:20px}
+    .card h3{color:#0a4d8c;margin-bottom:10px}
+
+    /* BUTTON */
+    .btn{background:#0a4d8c;color:#fff;border:none;padding:8px 14px;border-radius:20px;cursor:pointer}
+
+    /* ADMIN LOGIN */
+    .admin-login{background:#fff;padding:30px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.1);margin-top:40px}
+    .admin-login input{width:100%;padding:10px;margin-bottom:10px;border-radius:8px;border:1px solid #ccc}
+
+    /* CRUD */
+    .crud{display:none;background:#fff;padding:30px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.1);margin-top:40px}
+    table{width:100%;margin-top:20px;border-collapse:collapse}
+    th,td{padding:10px;border-bottom:1px solid #ddd}
+
+    footer{background:#0a4d8c;color:#fff;text-align:center;padding:20px;margin-top:50px}
+  </s
